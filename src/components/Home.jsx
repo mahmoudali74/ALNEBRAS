@@ -60,25 +60,36 @@ export default function Home() {
 
   return (
     <>
-      {/* NAVBAR */}
-      <motion.nav
-        initial={{ y: -80 }}
-        animate={{ y: 0 }}
-        transition={{ duration: 0.6 }}
-        className={`fixed w-full z-50 transition-all ${scrolled ? "bg-black/70 backdrop-blur-md shadow-lg" : "bg-transparent"}`}
-      >
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between text-white">
-          <h1 className="text-2xl font-extrabold text-white-400 tracking-wide">ALNEBRAS</h1>
-          <ul className="hidden md:flex space-x-10 text-sm font-medium">
-            <li><a href="/" className="hover:text-blue-400 transition">Home</a></li>
-            <li><a href="/about" className="hover:text-blue-400 transition">About</a></li>
-            <li><a href="/projects" className="hover:text-blue-400 transition">Projects</a></li>
-          </ul>
-          <div className="md:hidden text-2xl">
-            <i className="fa-solid fa-bars"></i>
-          </div>
-        </div>
-      </motion.nav>
+<motion.nav
+  initial={{ y: -80 }}
+  animate={{ y: 0 }}
+  transition={{ duration: 0.6 }}
+  className={`fixed w-full z-50 transition-all ${scrolled ? "bg-black/70 backdrop-blur-md shadow-lg" : "bg-transparent"}`}
+>
+  <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between text-white">
+    {/* Logo أو أيقونة بدل النص */}
+  <a  className="flex items-center text-3xl text-blue-400">
+  <img
+    src="/assets/02.11.2025_18.20.14_REC-removebg-preview.png"
+    alt="ALNEBRAS"
+    className="h-19 w-auto" // زودت الارتفاع من 10 → 16
+  />
+</a>
+
+
+    {/* القوائم */}
+    <ul className="hidden md:flex space-x-10 text-sm font-medium">
+      <li><a href="/" className="hover:text-blue-400 transition">Home</a></li>
+      <li><a href="/about" className="hover:text-blue-400 transition">About</a></li>
+      <li><a href="/projects" className="hover:text-blue-400 transition">Projects</a></li>
+    </ul>
+
+    {/* أيقونة الهامبرجر للقوائم الصغيرة */}
+    <div className="md:hidden text-2xl">
+      <i className="fa-solid fa-bars"></i>
+    </div>
+  </div>
+</motion.nav>
 
       <main className="bg-black text-white font-[Poppins] overflow-hidden">
         {/* HERO */}
@@ -126,6 +137,36 @@ export default function Home() {
             </div>
           </motion.div>
         </section>
+{/* Our Team Slider */}
+<section className="py-20 bg-black">
+  <div className="max-w-6xl mx-auto px-6 text-center">
+    <h2 className="text-4xl font-bold mb-10 text-white">Our Team</h2>
+    <Swiper
+      modules={[Autoplay, Pagination]}
+      autoplay={{ delay: 3500 }}
+      pagination={{ clickable: true }}
+      spaceBetween={30}
+      slidesPerView={1}
+      className="rounded-2xl overflow-hidden"
+    >
+      {[
+        { name: "Our Team", img: "/assets/photo_5782710222236355876_y.jpg" },
+  
+      ].map((member, i) => (
+        <SwiperSlide key={i}>
+          <div className="relative">
+            <img
+              src={member.img}
+              alt={member.name}
+              className="w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] object-cover rounded-2xl opacity-90 hover:opacity-100 transition"
+            />
+    
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  </div>
+</section>
 
         {/* Vision / Mission / Values */}
         <section className="py-24 bg-gradient-to-b from-black via-blue-950/80 to-black text-white">

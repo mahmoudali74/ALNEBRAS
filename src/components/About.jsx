@@ -18,7 +18,7 @@ export default function About() {
           transition={{ duration: 1 }}
           className="text-6xl md:text-7xl font-extrabold text-white-400 mb-4"
         >
-          About ALNEBRAS
+          About Alnbres
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
@@ -26,7 +26,7 @@ export default function About() {
           transition={{ delay: 0.5, duration: 1 }}
           className="text-gray-300 max-w-3xl px-6 text-lg leading-relaxed"
         >
-          ALNEBRAS is a specialized contracting company that provides comprehensive engineering and construction services across multiple sectors. With a commitment to quality, safety, and efficiency, we deliver projects that meet international standards and client expectations.
+          Alnbres is a specialized contracting company that provides comprehensive engineering and construction services across multiple sectors. With a commitment to quality, safety, and efficiency, we deliver projects that meet international standards and client expectations.
         </motion.p>
       </section>
 
@@ -90,7 +90,7 @@ export default function About() {
 
       {/* ---------------- COMMITMENT SECTION ---------------- */}
       <Parallax
-        bgImage="/assets/photo_5782710222236355876_y.jpg"
+        bgImage="/assets/photo_5782710222236355904_y.jpg"
         strength={200}
       >
         <div className="py-32 text-center bg-black/70">
