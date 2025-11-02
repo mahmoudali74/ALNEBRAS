@@ -50,7 +50,7 @@ export default function Home() {
       },
     },
   };
-
+  const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 60);
@@ -60,36 +60,43 @@ export default function Home() {
 
   return (
     <>
-<motion.nav
-  initial={{ y: -80 }}
-  animate={{ y: 0 }}
-  transition={{ duration: 0.6 }}
-  className={`fixed w-full z-50 transition-all ${scrolled ? "bg-black/70 backdrop-blur-md shadow-lg" : "bg-transparent"}`}
->
-  <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between text-white">
-    {/* Logo أو أيقونة بدل النص */}
-  <a  className="flex items-center text-3xl text-blue-400">
+  <motion.nav
+      initial={{ y: -80 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 0.6 }}
+      className={`fixed w-full z-50 transition-all ${scrolled ? "bg-black/70 backdrop-blur-md shadow-lg" : "bg-transparent"}`}
+    >
+      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between text-white">
+        {/* Logo */}
+<a className="flex items-center text-3xl text-blue-400">
   <img
     src="/assets/02.11.2025_18.20.14_REC-removebg-preview.png"
     alt="ALNEBRAS"
-    className="h-19 w-auto" // زودت الارتفاع من 10 → 16
+    className="h-16 w-auto drop-shadow-[0_0_5px_rgba(255,255,255,0.3)]"
   />
 </a>
+        {/* القوائم للكبير */}
+        <ul className="hidden md:flex space-x-10 text-sm font-medium">
+          <li><a href="/" className="hover:text-blue-400 transition">Home</a></li>
+          <li><a href="/about" className="hover:text-blue-400 transition">About</a></li>
+          <li><a href="/projects" className="hover:text-blue-400 transition">Projects</a></li>
+        </ul>
 
+        {/* أيقونة الهامبرجر للقوائم الصغيرة */}
+        <div className="md:hidden text-2xl cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
+          <i className="fa-solid fa-bars"></i>
+        </div>
+      </div>
 
-    {/* القوائم */}
-    <ul className="hidden md:flex space-x-10 text-sm font-medium">
-      <li><a href="/" className="hover:text-blue-400 transition">Home</a></li>
-      <li><a href="/about" className="hover:text-blue-400 transition">About</a></li>
-      <li><a href="/projects" className="hover:text-blue-400 transition">Projects</a></li>
-    </ul>
-
-    {/* أيقونة الهامبرجر للقوائم الصغيرة */}
-    <div className="md:hidden text-2xl">
-      <i className="fa-solid fa-bars"></i>
-    </div>
-  </div>
-</motion.nav>
+      {/* القوائم للموبايل */}
+      {isOpen && (
+        <ul className="md:hidden bg-black text-white px-6 py-4 space-y-3">
+          <li><a href="/" className="hover:text-blue-400 transition">Home</a></li>
+          <li><a href="/about" className="hover:text-blue-400 transition">About</a></li>
+          <li><a href="/projects" className="hover:text-blue-400 transition">Projects</a></li>
+        </ul>
+      )}
+    </motion.nav>
 
       <main className="bg-black text-white font-[Poppins] overflow-hidden">
         {/* HERO */}
