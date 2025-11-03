@@ -73,8 +73,8 @@ const projects = [
     location: "New Alamein City",
     images: [
       "/assets/WhatsApp Image 2025-11-03 at 3.09.47 PM (1).jpeg",
-      "public/assets/WhatsApp Image 2025-11-03 at 3.09.47 PM.jpeg",
-      "public/assets/WhatsApp Image 2025-11-03 at 3.09.48 PM.jpeg"
+      "/assets/WhatsApp Image 2025-11-03 at 3.09.47 PM.jpeg",
+      "/assets/WhatsApp Image 2025-11-03 at 3.09.48 PM.jpeg"
     ],
     gradient: "from-red-900 via-red-700 to-red-500",
   },
