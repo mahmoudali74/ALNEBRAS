@@ -182,116 +182,117 @@ export default function About() {
 
 
 
-              {/* FOOTER */}
-              <footer className="bg-gradient-to-b from-[#0a0a0a] to-[#020617] text-gray-300 pt-16 pb-6 border-t border-blue-900 overflow-hidden">
-                <div className="grid gap-12 px-6 mx-auto max-w-7xl md:grid-cols-4">
-                  <motion.div
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.7 }}
-                  >
-                    <h3 className="mb-4 text-3xl font-extrabold tracking-wide text-white">
-                      ALNEBRAS
-                    </h3>
-                    <p className="text-sm leading-relaxed text-gray-400">
-                      A leading Egyptian contracting company delivering world-class
-                      engineering and construction solutions with integrity,
-                      innovation, and excellence.
-                    </p>
-                  </motion.div>
-      
-                  <motion.div
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.7, delay: 0.2 }}
-                  >
-                    <h4 className="mb-4 text-lg font-semibold text-blue-400">
-                      Quick Links
-                    </h4>
-                    <ul className="space-y-2 text-sm">
-                      <li>
-                        <a href="/" className="transition hover:text-blue-400">
-                          Home
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/about" className="transition hover:text-blue-400">
-                          About Us
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/projects" className="transition hover:text-blue-400">
-                          Projects
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/contact" className="transition hover:text-blue-400">
-                          Contact
-                        </a>
-                      </li>
-                    </ul>
-                  </motion.div>
-      
-                  <motion.div
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.7, delay: 0.4 }}
-                  >
-                    <h4 className="mb-4 text-lg font-semibold text-blue-400">
-                      Contact Us
-                    </h4>
-                    <ul className="space-y-3 text-sm">
-                      <li>
-                        <i className="mr-2 text-blue-400 fa-solid fa-phone"></i>
-                        +20 101 066 0096
-                      </li>
-                      <li>
-                        <i className="mr-2 text-blue-400 fa-solid fa-envelope"></i>
-                        alnebras.con@gmail.com
-                      </li>
-                      <li>
-                        <i className="mr-2 text-blue-400 fa-solid fa-location-dot"></i>
-                        Badr City, Cairo, Egypt
-                      </li>
-                    </ul>
-                  </motion.div>
-      
-                  <motion.div
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.7, delay: 0.6 }}
-                  >
-                    <h4 className="mb-4 text-lg font-semibold text-blue-400">
-                      Follow Us
-                    </h4>
-                    <div className="flex space-x-5 text-2xl">
-                      <a
-                        href="https://wa.me/201010660096"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="transition transform hover:text-green-400 hover:scale-125"
-                      >
-                        <i className="fa-brands fa-whatsapp"></i>
-                      </a>
-              
-                  
-                
-                    </div>
-                  </motion.div>
-                </div>
-      
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 1, delay: 0.8 }}
-                  className="pt-6 mt-10 text-sm text-center text-gray-500 border-t border-gray-800"
-                >
-                  <p>
-                    © {new Date().getFullYear()} ALNEBRAS Contracting — All Rights
-                    Reserved.
-                  </p>
-                </motion.div>
-              </footer>
+      {/* FOOTER */}
+      <footer className="bg-gradient-to-b from-[#0a0a0a] to-[#020617] text-gray-300 pt-16 pb-6 border-t border-blue-900 overflow-hidden">
+        <div className="grid gap-12 px-6 mx-auto max-w-7xl md:grid-cols-4">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+          >
+            <h3 className="mb-4 text-3xl font-extrabold tracking-wide text-white">
+              ALNEBRAS
+            </h3>
+            <p className="text-sm leading-relaxed text-gray-400">
+              A leading Egyptian contracting company delivering world-class
+              engineering and construction solutions with integrity,
+              innovation, and excellence.
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
+          >
+            <h4 className="mb-4 text-lg font-semibold text-blue-400">
+              Quick Links
+            </h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a href="/" className="transition hover:text-blue-400">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="/about" className="transition hover:text-blue-400">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="/projects" className="transition hover:text-blue-400">
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a href="/contact" className="transition hover:text-blue-400">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.4 }}
+          >
+            <h4 className="mb-4 text-lg font-semibold text-blue-400">
+              Contact Us
+            </h4>
+            <ul className="space-y-3 text-sm">
+              <li>
+                <i className="mr-2 text-blue-400 fa-solid fa-phone"></i>
+                +20 101 066 0096
+              </li>
+              <li>
+                <i className="mr-2 text-blue-400 fa-solid fa-envelope"></i>
+                alnebras.con@gmail.com
+              </li>
+              <li>
+                <i className="mr-2 text-blue-400 fa-solid fa-location-dot"></i>
+                Badr City, Cairo, Egypt
+              </li>
+            </ul>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.6 }}
+          >
+            <h4 className="mb-4 text-lg font-semibold text-blue-400">
+              Follow Us
+            </h4>
+            <div className="flex space-x-5 text-2xl">
+              <a
+                href="https://wa.me/201010660096"
+                target="_blank"
+                rel="noreferrer"
+                className="text-5xl transition transform hover:text-green-400 hover:scale-125"
+              >
+                <i className="fa-brands fa-whatsapp"></i>
+              </a>
+
+
+
+
+            </div>
+          </motion.div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.8 }}
+          className="pt-6 mt-10 text-sm text-center text-gray-500 border-t border-gray-800"
+        >
+          <p>
+            © {new Date().getFullYear()} ALNEBRAS Contracting — All Rights
+            Reserved.
+          </p>
+        </motion.div>
+      </footer>
     </main>
   );
 }

@@ -329,8 +329,16 @@ export default function Home() {
             <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.6 }}>
               <h4 className="mb-4 text-lg font-semibold text-blue-400">Follow Us</h4>
               <div className="flex justify-center space-x-5 text-2xl md:justify-start">
-                <a href="https://wa.me/201010660096" target="_blank" rel="noreferrer" className="transition transform hover:text-green-400 hover:scale-125"><i className="fa-brands fa-whatsapp"></i></a>
-              
+                <a
+                  href="https://wa.me/201010660096"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-5xl transition transform hover:text-green-400 hover:scale-125"
+                >
+                  <i className="fa-brands fa-whatsapp"></i>
+                </a>
+
+
               </div>
             </motion.div>
           </div>

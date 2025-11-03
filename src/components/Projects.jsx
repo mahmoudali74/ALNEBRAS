@@ -148,8 +148,8 @@ export default function UltimateProjectsPage() {
               key={idx}
               onClick={() => setCurrent(idx)}
               className={`rounded-full transition ${idx === current
-                  ? "bg-blue-400 w-3 h-3 sm:w-4 sm:h-4 shadow-lg"
-                  : "bg-gray-400/50 w-2 h-2 sm:w-3 sm:h-3 hover:bg-blue-300"
+                ? "bg-blue-400 w-3 h-3 sm:w-4 sm:h-4 shadow-lg"
+                : "bg-gray-400/50 w-2 h-2 sm:w-3 sm:h-3 hover:bg-blue-300"
                 }`}
             />
           ))}
@@ -421,12 +421,13 @@ export default function UltimateProjectsPage() {
                 href="https://wa.me/201010660096"
                 target="_blank"
                 rel="noreferrer"
-                className="transition transform hover:text-green-400 hover:scale-125"
+                className="text-5xl transition transform hover:text-green-400 hover:scale-125"
               >
                 <i className="fa-brands fa-whatsapp"></i>
               </a>
-            
-        
+
+
+
             </div>
           </motion.div>
         </div>
