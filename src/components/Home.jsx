@@ -330,9 +330,7 @@ export default function Home() {
               <h4 className="mb-4 text-lg font-semibold text-blue-400">Follow Us</h4>
               <div className="flex justify-center space-x-5 text-2xl md:justify-start">
                 <a href="https://wa.me/201010660096" target="_blank" rel="noreferrer" className="transition transform hover:text-green-400 hover:scale-125"><i className="fa-brands fa-whatsapp"></i></a>
-                <a href="https://facebook.com" target="_blank" rel="noreferrer" className="transition transform hover:text-blue-500 hover:scale-125"><i className="fa-brands fa-facebook"></i></a>
-                <a href="mailto:alnebras.con@gmail.com" className="transition transform hover:text-red-400 hover:scale-125"><i className="fa-solid fa-envelope"></i></a>
-                <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="transition transform hover:text-blue-300 hover:scale-125"><i className="fa-brands fa-linkedin"></i></a>
+              
               </div>
             </motion.div>
           </div>

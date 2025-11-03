@@ -425,20 +425,8 @@ export default function UltimateProjectsPage() {
               >
                 <i className="fa-brands fa-whatsapp"></i>
               </a>
-              <a
-                href="https://www.facebook.com/profile.php?id=61568296402694"
-                target="_blank"
-                rel="noreferrer"
-                className="transition transform hover:text-blue-500 hover:scale-125"
-              >
-                <i className="fa-brands fa-facebook"></i>
-              </a>
-              <a
-                href="mailto:alnebras.con@gmail.com"
-                className="transition transform hover:text-red-400 hover:scale-125"
-              >
-                <i className="fa-solid fa-envelope"></i>
-              </a>
+            
+        
             </div>
           </motion.div>
         </div>

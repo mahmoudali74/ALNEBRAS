@@ -16,7 +16,7 @@ export default function About() {
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-6xl md:text-7xl font-extrabold text-white-400 mb-4"
+          className="mb-4 text-6xl font-extrabold md:text-7xl text-white-400"
         >
           About Alnbres
         </motion.h1>
@@ -24,7 +24,7 @@ export default function About() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
-          className="text-gray-300 max-w-3xl px-6 text-lg leading-relaxed"
+          className="max-w-3xl px-6 text-lg leading-relaxed text-gray-300"
         >
           Alnbres is a specialized contracting company that provides comprehensive engineering and construction services across multiple sectors. With a commitment to quality, safety, and efficiency, we deliver projects that meet international standards and client expectations.
         </motion.p>
@@ -32,7 +32,7 @@ export default function About() {
 
       {/* ---------------- ABOUT SECTION ---------------- */}
       <section className="py-24 bg-gradient-to-b from-black via-blue-950/60 to-black">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+        <div className="grid items-center max-w-6xl gap-16 px-6 mx-auto md:grid-cols-2">
           <motion.div
             initial={{ opacity: 0, x: -60 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -41,7 +41,7 @@ export default function About() {
             <img
               src="https://images.unsplash.com/photo-1503387762-592deb58ef4e"
               alt="About Alnebras"
-              className="rounded-3xl shadow-lg hover:shadow-blue-700/40 transition-all"
+              className="transition-all shadow-lg rounded-3xl hover:shadow-blue-700/40"
             />
           </motion.div>
 
@@ -50,11 +50,11 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold text-white-400 mb-6">Who We Are</h2>
-            <p className="text-gray-300 leading-relaxed mb-6">
+            <h2 className="mb-6 text-4xl font-bold text-white-400">Who We Are</h2>
+            <p className="mb-6 leading-relaxed text-gray-300">
               ALNEBRAS is a specialized contracting company that provides comprehensive engineering and construction services across multiple sectors. Our expertise covers civil, mechanical, and electromechanical works for infrastructure and industrial projects. We deliver projects that meet international standards and client expectations.
             </p>
-            <p className="text-gray-400 text-sm">
+            <p className="text-sm text-gray-400">
               We are committed to quality, safety, innovation, and sustainability in all our work.
             </p>
           </motion.div>
@@ -62,9 +62,9 @@ export default function About() {
       </section>
 
       {/* ---------------- CORE VALUES ---------------- */}
-      <section className="py-24 bg-black/90 text-center">
-        <h2 className="text-4xl font-bold text-white-400 mb-12">Our Core Values</h2>
-        <div className="max-w-6xl mx-auto grid md:grid-cols-5 gap-6 px-6">
+      <section className="py-24 text-center bg-black/90">
+        <h2 className="mb-12 text-4xl font-bold text-white-400">Our Core Values</h2>
+        <div className="grid max-w-6xl gap-6 px-6 mx-auto md:grid-cols-5">
           {[
             { icon: "fa-handshake", label: "Integrity", desc: "Honesty, transparency and accountability in every interaction." },
             { icon: "fa-award", label: "Quality", desc: "Rigorous standards and skilled craftsmanship for durable results." },
@@ -78,11 +78,11 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: i * 0.15 }}
               whileHover={{ scale: 1.05 }}
-              className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:shadow-blue-500/30 transition"
+              className="p-6 transition shadow-lg bg-white/10 backdrop-blur-lg rounded-2xl hover:shadow-blue-500/30"
             >
               <i className={`fa-solid ${v.icon} text-4xl text-blue-400 mb-3`}></i>
               <h3 className="text-lg font-semibold text-gray-200">{v.label}</h3>
-              <p className="text-gray-400 text-sm">{v.desc}</p>
+              <p className="text-sm text-gray-400">{v.desc}</p>
             </motion.div>
           ))}
         </div>
@@ -98,7 +98,7 @@ export default function About() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="text-5xl font-bold mb-8 text-blue-400"
+            className="mb-8 text-5xl font-bold text-blue-400"
           >
             Our Commitment
           </motion.h2>
@@ -106,7 +106,7 @@ export default function About() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 1 }}
-            className="max-w-3xl mx-auto text-gray-300 text-lg leading-relaxed px-6"
+            className="max-w-3xl px-6 mx-auto text-lg leading-relaxed text-gray-300"
           >
             At ALNEBRAS, we are dedicated to achieving excellence in every project we deliver. Our success is built on teamwork, technical expertise, and the trust of our clients. We aim to continuously improve our performance and expand our capabilities to meet the growing demands of the market.
           </motion.p>
@@ -114,24 +114,24 @@ export default function About() {
       </Parallax>
       {/* ---------------- STRATEGY FORMULATION SECTION ---------------- */}
       <section className="py-24 bg-gray-900">
-        <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center md:items-start gap-10">
+        <div className="flex flex-col items-center max-w-6xl gap-10 px-6 mx-auto md:flex-row md:items-start">
 
           {/* Left Side - Circle Image */}
           <div className="relative flex-shrink-0">
-            <div className="w-64 h-64 rounded-full overflow-hidden border-8 border-blue-500">
+            <div className="w-64 h-64 overflow-hidden border-8 border-blue-500 rounded-full">
               <img
                 src="https://images.unsplash.com/photo-1503387762-592deb58ef4e"
                 alt="Strategy"
-                className="w-full h-full object-cover"
+                className="object-cover w-full h-full"
               />
             </div>
           </div>
 
           {/* Right Side - Strategy Points */}
           <div className="flex flex-col gap-6 md:pl-10">
-            <h2 className="text-4xl font-bold text-white mb-6">Strategy Formulation</h2>
+            <h2 className="mb-6 text-4xl font-bold text-white">Strategy Formulation</h2>
             {strategyPoints.map((point, index) => (
-              <div key={index} className="relative bg-blue-500 text-white p-6 rounded-md shadow-lg">
+              <div key={index} className="relative p-6 text-white bg-blue-500 rounded-md shadow-lg">
                 {/* Optional connector line */}
                 <span className={`hidden md:block absolute left-[-2.5rem] top-1/2 w-10 h-0.5 bg-blue-500`} />
                 <p>{point}</p>
@@ -143,9 +143,9 @@ export default function About() {
 
       {/* ---------------- EXPERTISE SECTION ---------------- */}
       <section className="py-24 bg-gradient-to-b from-black via-blue-950/50 to-black">
-        <div className="max-w-6xl mx-auto px-6 text-center">
+        <div className="max-w-6xl px-6 mx-auto text-center">
           <h2 className="text-4xl font-bold text-white-400 mb-14">Our Fields of Expertise</h2>
-          <div className="grid md:grid-cols-3 gap-10">
+          <div className="grid gap-10 md:grid-cols-3">
             {[
               {
                 title: "Civil & Infrastructure Works",
@@ -169,11 +169,11 @@ export default function About() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: i * 0.2 }}
                 whileHover={{ scale: 1.05 }}
-                className="bg-white/10 backdrop-blur-md p-10 rounded-2xl shadow-lg hover:shadow-blue-500/30 transition"
+                className="p-10 transition shadow-lg bg-white/10 backdrop-blur-md rounded-2xl hover:shadow-blue-500/30"
               >
                 <i className={`fa-solid ${f.icon} text-5xl mb-4 text-blue-400`}></i>
-                <h3 className="text-2xl font-semibold mb-3 text-blue-300">{f.title}</h3>
-                <p className="text-gray-300 leading-relaxed">{f.desc}</p>
+                <h3 className="mb-3 text-2xl font-semibold text-blue-300">{f.title}</h3>
+                <p className="leading-relaxed text-gray-300">{f.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -184,16 +184,16 @@ export default function About() {
 
               {/* FOOTER */}
               <footer className="bg-gradient-to-b from-[#0a0a0a] to-[#020617] text-gray-300 pt-16 pb-6 border-t border-blue-900 overflow-hidden">
-                <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
+                <div className="grid gap-12 px-6 mx-auto max-w-7xl md:grid-cols-4">
                   <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7 }}
                   >
-                    <h3 className="text-3xl font-extrabold text-white mb-4 tracking-wide">
+                    <h3 className="mb-4 text-3xl font-extrabold tracking-wide text-white">
                       ALNEBRAS
                     </h3>
-                    <p className="text-gray-400 leading-relaxed text-sm">
+                    <p className="text-sm leading-relaxed text-gray-400">
                       A leading Egyptian contracting company delivering world-class
                       engineering and construction solutions with integrity,
                       innovation, and excellence.
@@ -205,27 +205,27 @@ export default function About() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7, delay: 0.2 }}
                   >
-                    <h4 className="text-lg font-semibold text-blue-400 mb-4">
+                    <h4 className="mb-4 text-lg font-semibold text-blue-400">
                       Quick Links
                     </h4>
                     <ul className="space-y-2 text-sm">
                       <li>
-                        <a href="/" className="hover:text-blue-400 transition">
+                        <a href="/" className="transition hover:text-blue-400">
                           Home
                         </a>
                       </li>
                       <li>
-                        <a href="/about" className="hover:text-blue-400 transition">
+                        <a href="/about" className="transition hover:text-blue-400">
                           About Us
                         </a>
                       </li>
                       <li>
-                        <a href="/projects" className="hover:text-blue-400 transition">
+                        <a href="/projects" className="transition hover:text-blue-400">
                           Projects
                         </a>
                       </li>
                       <li>
-                        <a href="/contact" className="hover:text-blue-400 transition">
+                        <a href="/contact" className="transition hover:text-blue-400">
                           Contact
                         </a>
                       </li>
@@ -237,20 +237,20 @@ export default function About() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7, delay: 0.4 }}
                   >
-                    <h4 className="text-lg font-semibold text-blue-400 mb-4">
+                    <h4 className="mb-4 text-lg font-semibold text-blue-400">
                       Contact Us
                     </h4>
                     <ul className="space-y-3 text-sm">
                       <li>
-                        <i className="fa-solid fa-phone mr-2 text-blue-400"></i>
+                        <i className="mr-2 text-blue-400 fa-solid fa-phone"></i>
                         +20 101 066 0096
                       </li>
                       <li>
-                        <i className="fa-solid fa-envelope mr-2 text-blue-400"></i>
+                        <i className="mr-2 text-blue-400 fa-solid fa-envelope"></i>
                         alnebras.con@gmail.com
                       </li>
                       <li>
-                        <i className="fa-solid fa-location-dot mr-2 text-blue-400"></i>
+                        <i className="mr-2 text-blue-400 fa-solid fa-location-dot"></i>
                         Badr City, Cairo, Egypt
                       </li>
                     </ul>
@@ -261,7 +261,7 @@ export default function About() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7, delay: 0.6 }}
                   >
-                    <h4 className="text-lg font-semibold text-blue-400 mb-4">
+                    <h4 className="mb-4 text-lg font-semibold text-blue-400">
                       Follow Us
                     </h4>
                     <div className="flex space-x-5 text-2xl">
@@ -269,32 +269,13 @@ export default function About() {
                         href="https://wa.me/201010660096"
                         target="_blank"
                         rel="noreferrer"
-                        className="hover:text-green-400 transition transform hover:scale-125"
+                        className="transition transform hover:text-green-400 hover:scale-125"
                       >
                         <i className="fa-brands fa-whatsapp"></i>
                       </a>
-                      <a
-                        href="https://facebook.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="hover:text-blue-500 transition transform hover:scale-125"
-                      >
-                        <i className="fa-brands fa-facebook"></i>
-                      </a>
-                      <a
-                        href="mailto:alnebras.con@gmail.com"
-                        className="hover:text-red-400 transition transform hover:scale-125"
-                      >
-                        <i className="fa-solid fa-envelope"></i>
-                      </a>
-                      <a
-                        href="https://linkedin.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="hover:text-blue-300 transition transform hover:scale-125"
-                      >
-                        <i className="fa-brands fa-linkedin"></i>
-                      </a>
+              
+                  
+                
                     </div>
                   </motion.div>
                 </div>
@@ -303,7 +284,7 @@ export default function About() {
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 1, delay: 0.8 }}
-                  className="border-t border-gray-800 mt-10 pt-6 text-center text-sm text-gray-500"
+                  className="pt-6 mt-10 text-sm text-center text-gray-500 border-t border-gray-800"
                 >
                   <p>
                     © {new Date().getFullYear()} ALNEBRAS Contracting — All Rights
