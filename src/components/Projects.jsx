@@ -35,7 +35,8 @@ const projects = [
     images: [
       "/assets/photo_5782710222236355881_y.jpg",
       "/assets/WhatsApp Image 2025-11-03 at 3.04.00 PM.jpeg",
-      "/assets/WhatsApp Image 2025-11-03 at 3.04.01 PM.jpeg"
+      "/assets/WhatsApp Image 2025-11-03 at 3.04.01 PM.jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.00.29 AM.jpeg"
     ],
     gradient: "from-gray-900 via-gray-700 to-gray-500",
   },
@@ -45,7 +46,8 @@ const projects = [
     images: [
       "/assets/photo_5782710222236355905_y.jpg",
       "/assets/WhatsApp Image 2025-11-03 at 3.05.36 PM.jpeg",
-      "/assets/WhatsApp Image 2025-11-03 at 3.05.37 PM.jpeg"
+      "/assets/WhatsApp Image 2025-11-03 at 3.05.37 PM.jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.01.27 AM.jpeg"
     ],
     gradient: "from-green-900 via-green-700 to-green-500",
   },
@@ -55,6 +57,7 @@ const projects = [
     images: [
       "/assets/photo_5782710222236355879_x.jpg",
       "/assets/WhatsApp Image 2025-11-03 at 3.07.01 PM.jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.03.26 AM.jpeg"
     ],
     gradient: "from-purple-900 via-purple-700 to-purple-500",
   },
@@ -64,7 +67,11 @@ const projects = [
     images: [
       "/assets/WhatsApp Image 2025-11-03 at 3.08.19 PM (1).jpeg",
       "/assets/WhatsApp Image 2025-11-03 at 3.08.19 PM (2).jpeg",
-      "/assets/WhatsApp Image 2025-11-03 at 3.08.19 PM.jpeg"
+      "/assets/WhatsApp Image 2025-11-03 at 3.08.19 PM.jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.06.16 AM (1).jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.06.16 AM.jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.07.19 AM (1).jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.07.19 AM.jpeg"
     ],
     gradient: "from-yellow-900 via-yellow-700 to-yellow-500",
   },
@@ -74,7 +81,11 @@ const projects = [
     images: [
       "/assets/WhatsApp Image 2025-11-03 at 3.09.47 PM (1).jpeg",
       "/assets/WhatsApp Image 2025-11-03 at 3.09.47 PM.jpeg",
-      "/assets/WhatsApp Image 2025-11-03 at 3.09.48 PM.jpeg"
+      "/assets/WhatsApp Image 2025-11-03 at 3.09.48 PM.jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.08.48 AM.jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.08.49 AM (1).jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.08.49 AM.jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.08.50 AM.jpeg"
     ],
     gradient: "from-red-900 via-red-700 to-red-500",
   },
@@ -86,7 +97,8 @@ const projects = [
       "/assets/WhatsApp Image 2025-11-03 at 3.10.26 PM (2).jpeg",
       "/assets/WhatsApp Image 2025-11-03 at 3.10.26 PM.jpeg",
       "/assets/WhatsApp Image 2025-11-03 at 3.17.15 PM.jpeg",
-      "/assets/WhatsApp Image 2025-11-03 at 3.17.16 PM.jpeg"
+      "/assets/WhatsApp Image 2025-11-03 at 3.17.16 PM.jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.10.21 AM.jpeg"
     ],
     gradient: "from-indigo-900 via-indigo-700 to-indigo-500",
   },
@@ -96,6 +108,8 @@ const projects = [
     images: [
       "/assets/photo_5782710222236355870_y.jpg",
       "/assets/WhatsApp Image 2025-11-03 at 3.11.07 PM.jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.11.07 AM (1).jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.11.07 AM.jpeg"
     ],
     gradient: "from-cyan-900 via-cyan-700 to-cyan-500",
   },
@@ -106,7 +120,8 @@ const projects = [
     images: [
       "/assets/WhatsApp Image 2025-11-03 at 3.13.00 PM.jpeg",
       "/assets/WhatsApp Image 2025-11-03 at 3.13.00 PM (1).jpeg",
-      "/assets/WhatsApp Image 2025-11-03 at 3.13.00 PM (2).jpeg"
+      "/assets/WhatsApp Image 2025-11-03 at 3.13.00 PM (2).jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.12.25 AM.jpeg"
     ],
     gradient: "from-rose-900 via-rose-700 to-rose-500",
   },
@@ -114,9 +129,10 @@ const projects = [
     title: "Construction of Jolie Ville Hotel",
     location: "Sharm El Sheikh",
     images: [
-      "/assets/WhatsApp Image 2025-11-03 at 3.13.23 PM (1).jpeg",
-      "/assets/WhatsApp Image 2025-11-03 at 3.13.23 PM (2).jpeg",
-      "/assets/WhatsApp Image 2025-11-03 at 3.13.23 PM (2).jpeg"
+      "/assets/WhatsApp Image 2025-11-05 at 1.13.59 AM (1).jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.13.59 AM (2).jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.13.59 AM.jpeg",
+      "/assets/WhatsApp Image 2025-11-05 at 1.14.00 AM.jpeg"
     ],
     gradient: "from-orange-900 via-orange-700 to-orange-500",
   },
