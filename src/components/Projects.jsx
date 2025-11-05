@@ -126,7 +126,7 @@ const projects = [
     gradient: "from-rose-900 via-rose-700 to-rose-500",
   },
   {
-    title: "Construction of Jolie Ville Hotel",
+    title: "Participating in the finishing works for the Jolie Ville Hotel",
     location: "Sharm El Sheikh",
     images: [
       "/assets/WhatsApp Image 2025-11-05 at 1.13.59 AM (1).jpeg",

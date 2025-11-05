@@ -153,8 +153,8 @@ export default function About() {
                 icon: "fa-building",
               },
               {
-                title: "Water & Environmental Systems",
-                desc: "Design, construction, and maintenance of water and wastewater networks, pumping stations, and treatment plants. Reliable and sustainable solutions for communities.",
+                title: "Steel Structures & Environmental Systems",
+                desc: "Execution/Construction of steel structures with all sections and profiles..",
                 icon: "fa-water",
               },
               {
